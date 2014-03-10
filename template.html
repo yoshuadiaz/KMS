@@ -1,0 +1,160 @@
+<!-- INICIO DEL HEAD Y SIDEBAR -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>KMS</title>
+	<link rel="author" href="humans.txt" />
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="prefix.js"></script>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<a href="index.html"><h1><span class="ocultar">KMS</span><img src="img/kms.png" alt="KMS"></h1></a>
+			<nav>
+				<ul>
+					<li><a href="Dashboard.html">Actividad</a></li>
+					<li><a href="Tips.html">Tips</a></li>
+					<li><a href="Recompensas.html">Recompensas</a></li>
+					<li><a href="#">Mi Perfil</a></li>
+				</ul>
+			</nav>
+			<div class="alertas-header">
+				<span>6</span>
+			</div>
+			<div class="buscador-header">
+				<input type="search" name="googlesearch" placeholder="Realiza una búsqueda">
+			</div>
+		</div>
+	</header>
+	<div id="wrap">
+		<aside id="sidebar">
+			<section id="Usuario">
+				<h2>Muchacha Alegre</h2>
+				<figure>
+					<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
+				</figure>
+				<span class="distancia">425 kms</span>
+				<span class="origen">México DF</span>
+			</section>
+
+			<section id="recompensaDash">
+				<span class="proxRecomp">PROX. RECOMPENSA A</span>
+				<span class="bandera">
+					<img src="img/medalla.gif" alt="">
+				</span>
+				<span class="kms">1.5 kms</span>
+				<div id="barra">
+					<div class="progreso" style="width: 80%;"></div>
+				</div>
+			</section>
+			<section id="tusRecompensas">
+				<h3>TUS RECOMPENSAS</h3>
+				<ul>
+					<li>
+						<span class="recompensa">Boleto de Cine</span>
+						<span class="kilometros">3 km</span>
+					</li>
+					<li>
+						<span class="recompensa">Boleto de Cine</span>
+						<span class="kilometros">3 km</span>
+					</li>
+					<li>
+						<span class="recompensa">Boleto de Cine</span>
+						<span class="kilometros">3 km</span>
+					</li>
+					<li>
+						<span class="recompensa">Boleto de Cine</span>
+						<span class="kilometros">3 km</span>
+					</li>
+					<li>
+						<span class="recompensa">Boleto de Cine</span>
+						<span class="kilometros">3 km</span>
+					</li>
+				</ul>
+				<a href="#">Ver más</a>
+			</section>
+			<section id="amigos">
+				<h3>40 Amigos</h3>
+				<ul>
+					<li>
+						<figure>
+							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
+						</figure>
+						<span class="datos">
+							<span class="nombre">Fulano Fulañes</span>
+							<span class="kms">72.5 KMS</span>
+						</span>
+					</li>
+					<li>
+						<figure>
+							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
+						</figure>
+						<span class="datos">
+							<span class="nombre">Fulano Fulañes</span>
+							<span class="kms">72.5 KMS</span>
+						</span>
+					</li>
+					<li>
+						<figure>
+							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
+						</figure>
+						<span class="datos">
+							<span class="nombre">Fulano Fulañes</span>
+							<span class="kms">72.5 KMS</span>
+						</span>
+					</li>
+					<li>
+						<figure>
+							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
+						</figure>
+						<span class="datos">
+							<span class="nombre">Fulano Fulañes</span>
+							<span class="kms">72.5 KMS</span>
+						</span>
+					</li>
+					<li>
+						<figure>
+							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
+						</figure>
+						<span class="datos">
+							<span class="nombre">Fulano Fulañes</span>
+							<span class="kms">72.5 KMS</span>
+						</span>
+					</li>
+				</ul>
+				<a href="#">Ver todos</a>
+			</section>
+		</aside>
+		<section id="contenidos">
+		<!-- FIN DEL HEAD Y SIDEBAR -->
+			{% block contenidos %}
+			{% endblock %}
+		<!-- INICIO DEL FOOTER -->
+		</section>
+		<div style="clear:both"></div>
+	</div>
+	<footer>
+		<div class="contenedor">
+			<nav>
+				<ul>
+					<li><a href="">Producto</a></li>
+					<li><a href="">Servicios</a></li>
+					<li><a href="">Tiendas</a></li>
+					<li><a href="">Nosotros</a></li>
+					<li><a href="">KMS</a></li>
+				</ul>
+			</nav>
+			<ul class="redes">
+				<li><a href="#" target="_blank"><img src="img/Facebook.png" alt=""></a></li>
+				<li><a href="#" target="_blank"><img src="img/Twitter.png" alt=""></a></li>
+				<li><a href="#" target="_blank"><img src="img/Correo.png" alt=""></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
+<!-- FIN DEL FOOTER -->
