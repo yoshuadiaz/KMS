@@ -16,17 +16,19 @@
 			<a href="index.html"><h1><span class="ocultar">KMS</span><img src="img/kms.png" alt="KMS"></h1></a>
 			<nav>
 				<ul>
-					<li><a href="Dashboard.html">Actividad</a></li>
+					<li><a href="Dashboard.html">Mi Perfil</a></li>
 					<li><a href="Tips.html">Tips</a></li>
 					<li><a href="Recompensas.html">Recompensas</a></li>
-					<li><a href="#">Mi Perfil</a></li>
+					<li><a href="Amigos.html">Amigos</a></li>
 				</ul>
 			</nav>
-			<div class="alertas-header">
+			<a href="#" class="alertas-header">
 				<span>6</span>
-			</div>
+			</a>
+			<a href="#" class="configuracion-header"></a>
 			<div class="buscador-header">
 				<input type="search" name="googlesearch" placeholder="Realiza una búsqueda">
+				<input type="submit" class="submit" value="">
 			</div>
 		</div>
 	</header>
@@ -42,91 +44,26 @@
 			</section>
 
 			<section id="recompensaDash">
-				<span class="proxRecomp">PROX. RECOMPENSA A</span>
-				<span class="bandera">
-					<img src="img/medalla.gif" alt="">
-				</span>
-				<span class="kms">1.5 kms</span>
-				<div id="barra">
-					<div class="progreso" style="width: 80%;"></div>
-				</div>
+				<img src="img/medalla.png" alt="">
+				<a href="#" class="botonDorado">
+					VER RECOMPENSA
+				</a>
 			</section>
-			<section id="tusRecompensas">
-				<h3>TUS RECOMPENSAS</h3>
-				<ul>
-					<li>
-						<span class="recompensa">Boleto de Cine</span>
-						<span class="kilometros">3 km</span>
-					</li>
-					<li>
-						<span class="recompensa">Boleto de Cine</span>
-						<span class="kilometros">3 km</span>
-					</li>
-					<li>
-						<span class="recompensa">Boleto de Cine</span>
-						<span class="kilometros">3 km</span>
-					</li>
-					<li>
-						<span class="recompensa">Boleto de Cine</span>
-						<span class="kilometros">3 km</span>
-					</li>
-					<li>
-						<span class="recompensa">Boleto de Cine</span>
-						<span class="kilometros">3 km</span>
-					</li>
-				</ul>
-				<a href="#">Ver más</a>
+			<section id="tipDelDia">
+				<figure>
+					<img src="img/corazon.png" alt="">
+				</figure>
+				<h3>TIP DEL DÍA</h3>
+				<article>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, excepturi, voluptas, perspiciatis.
+				</article>
 			</section>
-			<section id="amigos">
-				<h3>40 Amigos</h3>
+			<section id="redes-sidebar">
 				<ul>
-					<li>
-						<figure>
-							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
-						</figure>
-						<span class="datos">
-							<span class="nombre">Fulano Fulañes</span>
-							<span class="kms">72.5 KMS</span>
-						</span>
-					</li>
-					<li>
-						<figure>
-							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
-						</figure>
-						<span class="datos">
-							<span class="nombre">Fulano Fulañes</span>
-							<span class="kms">72.5 KMS</span>
-						</span>
-					</li>
-					<li>
-						<figure>
-							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
-						</figure>
-						<span class="datos">
-							<span class="nombre">Fulano Fulañes</span>
-							<span class="kms">72.5 KMS</span>
-						</span>
-					</li>
-					<li>
-						<figure>
-							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
-						</figure>
-						<span class="datos">
-							<span class="nombre">Fulano Fulañes</span>
-							<span class="kms">72.5 KMS</span>
-						</span>
-					</li>
-					<li>
-						<figure>
-							<img src="http://lorempixel.com/output/people-q-c-150-150-9.jpg">
-						</figure>
-						<span class="datos">
-							<span class="nombre">Fulano Fulañes</span>
-							<span class="kms">72.5 KMS</span>
-						</span>
-					</li>
+					<li><a href="#" class="corona"></a></li>
+					<li><a href="#" class="facebook"></a></li>
+					<li><a href="#" class="twitter"></a></li>
 				</ul>
-				<a href="#">Ver todos</a>
 			</section>
 		</aside>
 		<section id="contenidos">
@@ -139,6 +76,7 @@
 	<a href="Dashboard.html">Dashboard</a>
 
 		<!-- INICIO DEL FOOTER -->
+		<div class="bottom-abajo"></div>
 		</section>
 		<div style="clear:both"></div>
 	</div>
@@ -154,12 +92,20 @@
 				</ul>
 			</nav>
 			<ul class="redes">
-				<li><a href="#" target="_blank"><img src="img/Facebook.png" alt=""></a></li>
-				<li><a href="#" target="_blank"><img src="img/Twitter.png" alt=""></a></li>
+				<li><a href="#" target="_blank"><img src="img/facebook-white.png" alt=""></a></li>
+				<li><a href="#" target="_blank"><img src="img/twitter-white.png" alt=""></a></li>
 				<li><a href="#" target="_blank"><img src="img/Correo.png" alt=""></a></li>
 			</ul>
 		</div>
 	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(inicio);
+		function inicio(){
+			var alto = $("#contenidos").height();
+			$("#sidebar").height(alto);
+		}
+	</script>
 </body>
 </html>
 <!-- FIN DEL FOOTER -->

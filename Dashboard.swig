@@ -1,14 +1,16 @@
 {% extends "template.html" %}
 {% block contenidos %}
 <div id="actividad">
-	<aside class="tresCol">
-		<p>7<span class="peque">hrs </span>45<span class="peque">min</span></p>
-		<em>HORAS DE SUEÑO HOY</em>
-	</aside>
-	<aside class="tresCol">
-		<p>8<span class="peque">kms</span></p>
-		<em>RECORRIDOS HOY</em>
-	</aside>
+	<div class="recorridoSueno">
+		<aside class="tresCol">
+			<p>7<span class="peque">hrs </span>45<span class="peque">min</span></p>
+			<em>HORAS DE SUEÑO HOY</em>
+		</aside>
+		<aside class="tresCol">
+			<p>8<span class="peque">kms</span></p>
+			<em>RECORRIDOS HOY</em>
+		</aside>
+	</div>
 	<aside class="equivalencias">
 		<ul>
 			<li>
@@ -66,7 +68,6 @@
 				<span class="suenoColor">32.4 %</span>
 			</div>
 		</article>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="chart.js"></script>
 		<script>
 			//Esto es el Diario
@@ -116,20 +117,5 @@
 		</script>
 	</section>
 
-	<div class="titulo-tip-godin">
-		<h3>TIP DEL DÍA</h3>
-		<hr>
-	</div>
-	<div class="tipGodin">
-		<figure>
-			<img src="img/godinez.jpg" alt="">
-		</figure>
-		<article>
-			<h2>Tip Godinez</h2>
-			<p>
-				Aprovecha para irte de n de semana, hay muchos lugares con actividades al aire libre, libérate del estrés, trabajo, jefe o suegra. Aprovecha para disfrutar mientras sumas KMS.
-			</p>
-		</article>
-	</div>
 </div>
 {% endblock %}
