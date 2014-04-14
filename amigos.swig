@@ -69,6 +69,7 @@
 			<span class="kms">84.6 KMS</span>
 		</div>
 	</article>
+	
 	<article class="amigosItem">
 		<figure>
 			<img src="http://placehold.it/50x50" alt="">

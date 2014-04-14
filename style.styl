@@ -291,6 +291,7 @@ footer
 	overflow hidden
 	text-align center
 	min-height 920px
+	height auto
 .contenedor2
 	width $Ancho
 	margin 0 auto
@@ -789,9 +790,50 @@ footer
 				color $Gris-Oscuro-KMS
 				span
 					display block
+.usuarioDatos
+	display block
+	overflow hidden
+	clear both
+	.tresCol
+		column(12)
+		push(2)
+		font-size 2.25em
+		letter-spacing 0
+		color $Rosa-KMS
+		margin-top 1em
+		margin-bottom .5em
+		padding-bottom .5em
+		line-heigt 0
+		display inline-block
+		border-bottom 1px solid $Gris-Claro-KMS
+		p
+			margin 0
+			display block
+		em
+			font-size .75rem
+			margin 0
+			display block
+		.peque
+			font-size 1.5rem
+	.equivalencias
+		column (12)
+		push(2)
+		color $Rosa-KMS
+		display inline-block
+		li
+			column(5)
+			figure
+				column(6)
+				margin 0
+				padding 0
+			>span
+				column(10)
+				color $Gris-Oscuro-KMS
+				span
+					display block
 #perfilEditar
 	width 80%
-	margin 10em auto 0 auto
+	margin 5em auto 0 auto
 	.informacion
 		column(8)
 		dl
@@ -874,3 +916,42 @@ footer
 				margin-right -1em
 				color #00CCC3
 				font-weight bold
+.resultados
+	column(12)
+	push(2)
+	text-align left
+	p
+		margin 1em 0 .25em
+	h3
+		color #00CCC3
+		margin .25em 0
+.busquedaResultados
+	column(12)
+	push(2)
+	padding 0
+	text-align left
+	li
+		column(16)
+		display inline-block
+		padding-bottom .5em
+		margin-top .5em
+		border-bottom 1px solid $Gris-Claro-KMS
+		a
+			text-decoration none
+			display block
+			figure
+				display inline-block
+				float left
+				margin 0
+				padding 0
+				width 50px
+				height 50px
+			.info
+				display block
+				margin-left 1em
+				float left
+				h4
+					margin 0
+				p
+					color #00CCC3
+					margin .25em 0

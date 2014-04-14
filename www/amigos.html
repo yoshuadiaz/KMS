@@ -190,6 +190,7 @@
 			<span class="kms">84.6 KMS</span>
 		</div>
 	</article>
+	
 	<article class="amigosItem">
 		<figure>
 			<img src="http://placehold.it/50x50" alt="">
@@ -400,7 +401,7 @@
 	</footer>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script>
-		$(document).ready(inicio);
+		$(document).on("ready",inicio);
 		function inicio(){
 			var alto = $("#contenidos").height();
 			$("#sidebar").height(alto);
