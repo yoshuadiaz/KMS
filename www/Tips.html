@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header>
-		<div class="contenedor">
+		<div class="contenedor2">
 			<a href="index.html"><h1><span class="ocultar">KMS</span><img src="img/kms.png" alt="KMS"></h1></a>
 			<nav>
 				<ul>
@@ -22,9 +22,61 @@
 					<li><a href="Amigos.html">Amigos</a></li>
 				</ul>
 			</nav>
-			<a href="#" class="alertas-header">
+			<div href="#" class="alertas-header">
 				<span>6</span>
-			</a>
+
+				<ul class="notificacionesPop ocultar">
+					<li>
+						<figure><img src="http://placehold.it/50x50" alt=""></figure>
+						<div class="info">
+							<h4>Nombre del Usuario</h4>
+							<p>
+								Te ha enviado una solicitud.
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<figure><img src="http://placehold.it/50x50" alt=""></figure>
+						<div class="info">
+							<h4>Nombre del Usuario</h4>
+							<p>
+								Te ha enviado una solicitud.
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<figure><img src="http://placehold.it/50x50" alt=""></figure>
+						<div class="info">
+							<h4>Nombre del Usuario</h4>
+							<p>
+								Te ha enviado una solicitud.
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<figure><img src="http://placehold.it/50x50" alt=""></figure>
+						<div class="info">
+							<h4>Nombre del Usuario</h4>
+							<p>
+								Te ha enviado una solicitud.
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<figure><img src="http://placehold.it/50x50" alt=""></figure>
+						<div class="info">
+							<h4>Nombre del Usuario</h4>
+							<p>
+								Te ha enviado una solicitud.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
 			<a href="#" class="configuracion-header"></a>
 			<div class="buscador-header">
 				<input type="search" name="googlesearch" placeholder="Realiza una búsqueda">
@@ -222,6 +274,9 @@
 		function inicio(){
 			var alto = $("#contenidos").height();
 			$("#sidebar").height(alto);
+			$(".alertas-header").click(function(){
+				$(".notificacionesPop").toggleClass("ocultar");
+			})
 		}
 	</script>
 </body>

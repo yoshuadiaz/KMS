@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>undefined/Dashboard.html</loc>
-		<lastmod>2014-04-13T23:41:13.148Z</lastmod>
+		<lastmod>2014-04-14T07:36:02.652Z</lastmod>
 		
 		<changefreq>weekly</changefreq>
 		
@@ -11,7 +11,7 @@
 	</url>
 	<url>
 		<loc>undefined/Recompensas.html</loc>
-		<lastmod>2014-04-13T23:41:13.148Z</lastmod>
+		<lastmod>2014-04-14T07:36:02.652Z</lastmod>
 		
 		<changefreq>weekly</changefreq>
 		
@@ -20,7 +20,16 @@
 	</url>
 	<url>
 		<loc>undefined/Tips.html</loc>
-		<lastmod>2014-04-13T23:41:13.148Z</lastmod>
+		<lastmod>2014-04-14T07:36:02.652Z</lastmod>
+		
+		<changefreq>weekly</changefreq>
+		
+		<priority>0.5</priority>
+		
+	</url>
+	<url>
+		<loc>undefined/amigos.html</loc>
+		<lastmod>2014-04-14T07:36:02.652Z</lastmod>
 		
 		<changefreq>weekly</changefreq>
 		
@@ -29,7 +38,25 @@
 	</url>
 	<url>
 		<loc>undefined/index.html</loc>
-		<lastmod>2014-04-13T23:41:13.148Z</lastmod>
+		<lastmod>2014-04-14T07:36:02.652Z</lastmod>
+		
+		<changefreq>weekly</changefreq>
+		
+		<priority>0.5</priority>
+		
+	</url>
+	<url>
+		<loc>undefined/perfil-editar.html</loc>
+		<lastmod>2014-04-14T07:36:02.652Z</lastmod>
+		
+		<changefreq>weekly</changefreq>
+		
+		<priority>0.5</priority>
+		
+	</url>
+	<url>
+		<loc>undefined/usuarioExterno.html</loc>
+		<lastmod>2014-04-14T07:36:02.652Z</lastmod>
 		
 		<changefreq>weekly</changefreq>
 		
